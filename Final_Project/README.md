@@ -45,13 +45,16 @@ food-delivery-api/
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/food-delivery-api.git
 cd food-delivery-api
+
 2️⃣ Create Virtual Environment
 python -m venv venv
 Activate:Windows venv\Scripts\activate
 Linux / Mac
 source venv/bin/activate
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
+
 4️⃣ Run the Application
 uvicorn app.main:app --reload
 🌐 API Documentation
@@ -65,28 +68,7 @@ http://127.0.0.1:8000/docs
 📗 ReDoc:
 
 http://127.0.0.1:8000/redoc
-🔑 API Endpoints
-👤 User APIs
-POST /users/register — Register new user
-POST /users/login — User login
-GET /users/{id} — Get user details
-🍽️ Restaurant APIs
-GET /restaurants — List all restaurants
-GET /restaurants/{id} — Get restaurant details
-POST /restaurants — Add restaurant (admin)
-📋 Menu APIs
-GET /menu/{restaurant_id} — Get menu items
-POST /menu — Add new menu item
-PUT /menu/{item_id} — Update item
-DELETE /menu/{item_id} — Delete item
-🛒 Order APIs
-POST /orders — Place order
-GET /orders/{order_id} — Get order details
-PUT /orders/{order_id} — Update order status
-GET /orders/user/{user_id} — Get user's orders
-⭐ Feedback APIs
-POST /feedback — Submit feedback
-GET /feedback — View all feedback
+
 🗄️ Database Schema (Example)
 User
 Field	Type
