@@ -6,10 +6,15 @@ The Food Delivery API is a backend system developed using FastAPI that allows us
 It is designed for learning REST API development, backend architecture, and database integration using Python.
 
 🛠️ Tech Stack
+
 ⚡ FastAPI — Backend framework
+
 🐍 Python 3.x
+
 🧩 Pydantic — Data validation
+
 📄 Uvicorn — ASGI server
+
 🧪 Swagger UI — API testing
 
 ⚙️ Installation & Setup
@@ -64,7 +69,9 @@ Thunder Client (VS Code)
 🚀 Microservices architecture
 
 📊 Project Status
+
 🚧 Status: Completed (Basic Version)
+
 This project successfully implements core backend functionalities of a food delivery system using FastAPI.
 
 ✅ Completed Features
