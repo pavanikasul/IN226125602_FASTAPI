@@ -23,25 +23,8 @@ It is designed for learning REST API development, backend architecture, and data
 📄 Uvicorn — ASGI server
 🧪 Swagger UI — API testing
 
-📂 Project Structure
-food-delivery-api/
-│
-├── app/
-│   ├── main.py
-│   ├── models.py
-│   ├── schemas.py
-│   ├── database.py
-│   └── routes/
-│       ├── users.py
-│       ├── restaurants.py
-│       ├── menu.py
-│       └── orders.py
-│
-├── requirements.txt
-├── README.md
-└── .env
-
 ⚙️ Installation & Setup
+
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/food-delivery-api.git
 cd food-delivery-api
@@ -108,6 +91,32 @@ Thunder Client (VS Code)
 🚀 Delivery tracking with maps
 🚀 Push notifications
 🚀 Microservices architecture
+
+📊 Project Status
+🚧 Status: Completed (Basic Version)
+This project successfully implements core backend functionalities of a food delivery system using FastAPI.
+
+✅ Completed Features
+Menu listing
+Search functionality
+Browse with filtering, sorting, pagination
+Cart management (add, update, view)
+Order placement and retrieval
+Swagger API testing
+
+🔄 In Progress / Future Scope
+Database integration (MySQL / PostgreSQL)
+User authentication (JWT)
+Payment gateway integration
+Deployment (Render / AWS / Railway)
+
+🙏 Acknowledgement
+I would like to express my sincere gratitude to:
+Innomatics Research Labs for providing the learning platform and project guidance
+My mentors and instructors for their continuous support and feedback
+The FastAPI documentation for clear and helpful resources
+Open-source community for inspiration and best practices
+This project was developed as part of a learning assignment to gain hands-on experience in building RESTful APIs using FastAPI.
 
 👩‍💻 Author
 
