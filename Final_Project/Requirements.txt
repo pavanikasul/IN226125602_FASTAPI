@@ -1,5 +1,6 @@
-📦 requirements.txt
+📦 Requirements.txt
 These are the essential Python packages:
+
 fastapi
 uvicorn
 pydantic
