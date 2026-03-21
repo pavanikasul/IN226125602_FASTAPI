@@ -88,16 +88,6 @@ Order placement and retrieval
 
 Swagger API testing
 
-🔄 In Progress / Future Scope
-
-Database integration (MySQL / PostgreSQL)
-
-User authentication (JWT)
-
-Payment gateway integration
-
-Deployment (Render / AWS / Railway)
-
 🙏 Acknowledgement
 
 I would like to express my sincere gratitude to:
