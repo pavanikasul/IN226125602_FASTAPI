@@ -5,17 +5,6 @@ The Food Delivery API is a backend system developed using FastAPI that allows us
 
 It is designed for learning REST API development, backend architecture, and database integration using Python.
 
-✨ Features
-
-✅ User registration & login
-✅ Restaurant listing
-✅ Menu management
-✅ Add items to cart
-✅ Place orders
-✅ Order tracking
-✅ Customer feedback system
-✅ Admin operations (optional)
-
 🛠️ Tech Stack
 ⚡ FastAPI — Backend framework
 🐍 Python 3.x
@@ -52,44 +41,26 @@ http://127.0.0.1:8000/docs
 
 http://127.0.0.1:8000/redoc
 
-🗄️ Database Schema (Example)
-User
-Field	Type
-id	Integer
-name	String
-email	String
-password	String
-Restaurant
-Field	Type
-id	Integer
-name	String
-location	String
-Menu Item
-Field	Type
-id	Integer
-restaurant_id	Integer
-name	String
-price	Float
-Order
-Field	Type
-id	Integer
-user_id	Integer
-total_amount	Float
-status	String
+
 🧪 Testing the API
 
 You can test the API using:
 
 Swagger UI
+
 Postman
 cURL
 Thunder Client (VS Code)
 🔒 Future Enhancements
 
 🚀 JWT Authentication
+
 🚀 Online payment integration
+
 🚀 Delivery tracking with maps
+
 🚀 Push notifications
+
 🚀 Microservices architecture
 
 📊 Project Status
@@ -97,25 +68,41 @@ Thunder Client (VS Code)
 This project successfully implements core backend functionalities of a food delivery system using FastAPI.
 
 ✅ Completed Features
+
 Menu listing
+
 Search functionality
+
 Browse with filtering, sorting, pagination
+
 Cart management (add, update, view)
+
 Order placement and retrieval
+
 Swagger API testing
 
 🔄 In Progress / Future Scope
+
 Database integration (MySQL / PostgreSQL)
+
 User authentication (JWT)
+
 Payment gateway integration
+
 Deployment (Render / AWS / Railway)
 
 🙏 Acknowledgement
+
 I would like to express my sincere gratitude to:
+
 Innomatics Research Labs for providing the learning platform and project guidance
+
 My mentors and instructors for their continuous support and feedback
+
 The FastAPI documentation for clear and helpful resources
+
 Open-source community for inspiration and best practices
+
 This project was developed as part of a learning assignment to gain hands-on experience in building RESTful APIs using FastAPI.
 
 👩‍💻 Author
